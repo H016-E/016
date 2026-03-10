@@ -1,0 +1,72 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    color: white;
+    font-family: Arial;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("rasm.jpg");
+}
+
+.about{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("rasm2.jpg");
+}
+
+.contact{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("rasm3.jpg");
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+}
+
+a{
+    color: #00ffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+a:hover{
+    color: red;
+}
+
+.hero h1{
+    font-size: 60px;
+}
+
+.hero p{
+    font-size: 24px;
+}
+
+.btn{
+    padding: 12px 30px;
+    background-color: #00ffcc;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+}
